@@ -100,7 +100,7 @@ const Skills = () => {
                   <li>Mac과 Windows 환경 모두 익숙합니다.</li>
                   <li>Figma로 협업한 경험이 있습니다.</li>
                   <li>git를 사용하여 협업한 경험이 있습니다.</li>
-                  <li>firebase를 사용하여 배포가 가능합니다.</li>
+                  <li>Firebase, Vercel을 사용하여 배포가 가능합니다.</li>
                 </Desc>
               </Text>
               <BadgeBox>
@@ -109,6 +109,7 @@ const Skills = () => {
                 <Badge image={icons.git} name="git" />
                 <Badge image={icons.apple} name="Mac" />
                 <Badge image={icons.windows} name="Windows" />
+                <Badge image={icons.vercel} name="Vercel" />
               </BadgeBox>
             </Card>
 
@@ -116,11 +117,19 @@ const Skills = () => {
               <Text>
                 <Title>Studying</Title>
                 <Desc>
-                  <li>Next.js 14버전을 공부중입니다.</li>
+                  <li>
+                    Next.js 14버전 기반의 스타트업 프로젝트 참여 경험이
+                    있습니다.
+                  </li>
+                  <li>
+                    Node.js 로 RESTful API 구축 경험이 있습니다. 계속해서
+                    공부중입니다.
+                  </li>
                 </Desc>
               </Text>
               <BadgeBox>
                 <Badge image={icons.nextjs} name="Next.js" />
+                <Badge image={icons.nodejs} name="Node.js" />
               </BadgeBox>
             </Card>
           </CardBox>

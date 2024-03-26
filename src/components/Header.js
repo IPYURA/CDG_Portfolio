@@ -43,8 +43,10 @@ const Wrap = styled.div`
   justify-content: center;
   align-items: center;
   transition: 0.5s;
+  box-shadow: 0 2px 3px rgba(5, 75, 126, 0.3);
   &.active {
     background: #fff;
+    box-shadow: 0 2px 3px rgba(5, 75, 126, 0.1);
   }
   &.active div {
     color: ${(props) => props.theme.subTextColor};

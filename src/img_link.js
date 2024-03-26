@@ -20,6 +20,8 @@ const icons = {
   tailwind: "./icon-tailwind.png",
   ts: "./icon-ts.png",
   windows: "./icon-windows.png",
+  nodejs: "./icon-nodeJs.webp",
+  vercel: "./icon-vercel.webp"
 };
 
 export default icons;
